@@ -1,0 +1,91 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="core">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav</Extensions>
+    </Filter>
+    <Filter Include="core\Console">
+      <UniqueIdentifier>{904458e5-bd02-4c3b-b614-b8a792266451}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\Commande">
+      <UniqueIdentifier>{76d5479a-4369-4efc-bf93-4b3f4c4b7091}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="core\Chrono">
+      <UniqueIdentifier>{ee5111db-de03-4043-b2d9-4e34c2e674af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{465395f9-a90e-4982-be1e-b295ccb3423f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod">
+      <UniqueIdentifier>{c56578f5-23f6-4a88-86e9-f1c9b9b71792}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod\Header">
+      <UniqueIdentifier>{ef033439-ce78-47ee-8190-e7c312231e29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="mod\Source">
+      <UniqueIdentifier>{be776507-32d8-4993-8d0f-b761906d0e91}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Spam.cpp">
+      <Filter>mod\Source</Filter>
+    </ClCompile>
+    <ClCompile Include="Console.cpp">
+      <Filter>core\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="Interupteur.cpp">
+      <Filter>core\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="consoleLecteur.cpp">
+      <Filter>core\Commande</Filter>
+    </ClCompile>
+    <ClCompile Include="Fonction.cpp">
+      <Filter>core\Commande</Filter>
+    </ClCompile>
+    <ClCompile Include="Saturne.cpp">
+      <Filter>core\Chrono</Filter>
+    </ClCompile>
+    <ClCompile Include="Langue.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\Source.cpp">
+      <Filter>core\Console</Filter>
+    </ClCompile>
+    <ClCompile Include="SaturneTime.cpp">
+      <Filter>core\Chrono</Filter>
+    </ClCompile>
+    <ClCompile Include="Commande.cpp">
+      <Filter>core\Commande</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Spam.h">
+      <Filter>mod\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Console.h">
+      <Filter>core\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Interupteur.h">
+      <Filter>core\Console</Filter>
+    </ClInclude>
+    <ClInclude Include="Commande.h">
+      <Filter>core\Commande</Filter>
+    </ClInclude>
+    <ClInclude Include="Fonction.h">
+      <Filter>core\Commande</Filter>
+    </ClInclude>
+    <ClInclude Include="Saturne.h">
+      <Filter>core\Chrono</Filter>
+    </ClInclude>
+    <ClInclude Include="Langue.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="Param.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="SaturneTime.h">
+      <Filter>core\Chrono</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
